@@ -1,0 +1,375 @@
+<html>
+<head>
+  <style>
+  body{
+    background-color:black;
+    padding-top:60px;
+  }
+  p{
+    color:white;
+    font-family:Arial;
+  }
+  .header{
+    background-color:black;
+    border:solid;
+    border-color:white;
+    border-width:1px;
+  }
+  .h1{
+    display: flex;
+   /* border:solid;
+    border-color:white;
+    border-width:1px;*/
+    justify-contents:space-between;
+    
+    /*background-color:black;*/
+  }
+  .h11{
+  /*  margin-right:1000px;*/
+    flex:1;
+   /* border:solid;
+    border-color:orange;
+    border-width:1px;*/
+   position:fixed;
+    top:0;
+    left:0;
+    right:1;
+   background-color:black;
+  }
+  .h111{
+    flex:1;
+   /* margin-right:500px;*/
+  }
+  .h1111{
+    flex:1;
+    font-weight:bold;
+    font-size:20px;
+    background-color:black;
+  }
+  .h12{
+    margin-top:0px;
+    display: flex;
+    align-items:bottom;
+    height:45px;
+    width:150px;
+    padding-top:15px;
+    margin-right:10px;
+    justify-content:space-between;
+    position:fixed;
+    right:0;
+    top:0;
+    background-color:black;
+  /*  border:solid;
+    border-color:white;
+    border-width:1px;*/
+  }
+  .h121{
+    /*border:solid;
+    border-color:white;
+    border-width:1px;*/
+  }
+  .h1211{
+    height:40px;
+    width:40px;
+  }
+  .h122{
+  /*  border:solid;
+    border-color:white;
+    border-width:1px;*/
+  }
+  .h1221{
+   height:40px;
+    width:40px; 
+  }
+  .h123{
+   /* border:solid;
+    border-color:white;
+    border-width:1px;*/
+  }
+  .h1231{
+    height:40px;
+    width:40px;
+  }
+  .h2{
+    border:none;
+    display:flex;
+   /* border:solid;
+    border-color:red;
+    border-width:1px;*/
+    height:50px;
+    flex:1;
+    background-color:black;
+    margin-top:5px;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+  }
+  .h21{
+    border:none;
+     flex:1;
+    border-radius:500px; 
+    /*border:solid;
+    border-color:green;
+    border-width:1px;*/
+    height:45px;
+    background-color:black;
+    padding-left:50px;
+    margin-left:2px;
+    margin-right:2px;
+    border:solid;
+    border-color:green;
+    border-width:1px;
+  }
+  .x{
+    margin-top:10px;
+    margin-bottom:50px;
+  }
+  .s{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns:70px 1fr;
+  }
+  .s1{
+    height:60px;
+    width:60px;
+   /* border:solid;
+    border-width:1px;
+    border-color:white;*/
+    
+  }
+  .s11{
+    vertical-align:bottom;
+    height:55px;
+    width:55px;
+    border-radius:1000px;
+  }
+  .s2{
+   /* border:solid;
+    border-width:1px;
+    border-color:white;*/
+    height:80px;
+  }
+  .s21{
+    display:grid;
+    grid-template-columns:1fr 75px;
+  /*  border:solid;
+    border-width:1px;
+    border-color:white;*/
+  }
+  .s211{
+   /* border:solid;
+    border-width:1px;
+    border-color:white;*/
+  }
+  .s2111{
+    margin-top:5px;
+    margin-right:0px;
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:0px;
+  }
+  .s212{
+  /*  border:solid;
+    border-width:1px;
+    border-color:white;*/
+  }
+  .s2121{
+   /* margin-top:0px;
+    */
+    margin-right:0px;
+    font-size:15px;
+    margin-bottom:0px;
+    margin-top:5px;
+  }
+  .s22{
+   /* border:solid;
+    border-width:1px;
+    border-color:white;*/
+  }
+  .s221{
+    margin-top:5px;
+    font-size:15px;
+  }
+  .floatheader{
+    position:fixed;
+    right:0;
+    bottom:100;
+    margin-right:10px;
+  }
+  .f1{
+    height:60px;
+    width:60px;
+  }
+  .lastheader{
+    display:flex;
+    flex-direction:rows;
+    justify-content:space-between;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:black;
+  }
+  .l1{
+   
+  }
+  .l11{
+    height:55px;
+    width:55px;
+  }
+  .l2{
+    
+  }
+  .l21{
+    height:55px;
+    width:55px;
+  }
+  .l3{
+   
+  }
+  .l31{
+    height:55px;
+    width:55px;
+  }
+  .l4{
+   
+  }
+  .l41{
+    height:55px;
+    width:55px;
+    margin-right:10px;
+  }
+  </style>
+</head>
+<body>
+  <div class="Z"><div class="header">
+    <div class="h1">
+      <div class="h11"> 
+        <div class="h111"><p class="h1111">WhatsApp</p></div>
+      </div>
+      <div class="h12">
+        <div class="h121"><img class="h1211"src="QRscanner.jpg"></div>
+      <div class="h122"><img class="h1221"src="photo.jpg"></div>
+        <div class="h123"><img class="h1231" src="threedots.jpg"></div>
+    </div>
+    </div>
+    <div class="h2"><input class="h21" placeholder="Search..."></div>
+  </div>
+  
+  
+  
+  <div class="x">
+    <div class="s">
+    <div class="s1"><img class="s11" src="vit.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">FY CS-SE-C Unofficial</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">Tanmay: Baki girls la gheun yee</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="vit.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">FY CS-SE- Div C 2024-2025</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">Tanmay: Urgent register oon mahaDBT portal!</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="krishshiv.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">Krish!!(you)</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">Stop Stalking me!</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="vit.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">K-CSSE-C 2024-25</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">Prasad sir: Urgent register oon mahaDBT portal!</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="pranjali.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">Pranjali</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">No offense!</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="shivam.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">Shivam Rode</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">thankyou!</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="tanmays.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">Tanmay Shinde</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">21 din me paisa double</p></div>
+    </div>
+  </div>
+  <div class="s">
+    <div class="s1"><img class="s11" src="prashant.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">PrashanT</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">heheboi!</p></div>
+    </div>
+  </div>
+   <div class="s">
+    <div class="s1"><img class="s11" src="sarthak.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">Sarthak Wankhede</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">bhai timetable ki pdf bhejna</p></div>
+    </div>
+  </div>
+   <div class="s">
+    <div class="s1"><img class="s11" src="aditya.jpg"></div>
+    <div class="s2">
+      <div class="s21">
+        <div class="s211"><p class="s2111">Aditya Watode</p></div>
+        <div class="s212"><p class="s2121">12:30 PM</p></div>
+      </div>
+      <div class="s22"><p class="s221">ha bhai</p></div>
+    </div>
+  </div>
+  </div>
+  <div class="floatheader">
+    <img class="f1" src="contactfindinggreen.jpg">
+  </div>
+  <div class="lastheader">
+    <div class="l1"><img class="l11" src="chats.jpg.jpg"></div>
+    <div class="l2"><img class="l21" src="updates.jpg"></div>
+    <div class="l3"><img class="l31" src="community.jpg"></div>
+    <div class="l4"><img class="l41" src="whatsappcalls.jpg"></div>
+  </div></div>
+  
+  
+</body>
+</html>
